@@ -11,11 +11,10 @@ Requirements:
 """
 
 import os
-import sys
+import pathlib
 import sys
 import threading
 import subprocess
-import pathlib
 try:
 	import magic
 except:
